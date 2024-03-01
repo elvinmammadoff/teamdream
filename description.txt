@@ -1,0 +1,137 @@
+<div class="user-html user-html__with-lazy-load">
+<a href="https://teamdream.netlify.app/documentation/" rel="nofollow" target="_blank">
+<img src="https://butazzo.netlify.app/src/assets/img/doc.png" alt="Teamdream - Online Documentation">
+</a>
+<h3 id="item-description__teamdream-responsive-team-card-bootstrap-v5-emplate">Teamdream - Responsive Team Card Bootstrap v5 Template</h3>
+<p><strong>Teamdream </strong>- Team Card template coded with Amazing beautiful and clean codes! Some powerful HTML &amp; CSS files 100% W3 valid web standards. and also a 100% responsive, mobile-first Pricing Table for your business, agency, service sale website.</p><p><strong>Teamdream</strong> is a multi-cause HTML template constructed with the operation of the rearmost Bootstrap v5.1.3. HTML5, and CSS3. It’s fully responsive
+Teamdream is well proved, veritably easy to use, and provides better performance. You will be easily able to customize it for your needs.
+</p>
+
+
+<p><strong>The code is well-commented and organized</strong>, with much of it explained directly in the code for easy use. <strong>Teamdream</strong> is <strong>100% responsive</strong> and has a clean design that works well on all types of screens and devices, including laptops, tablets and mobiles.</p>
+
+
+<img src="https://authlab.netlify.app/src/assets/img/rate.png" alt="rate-us">
+
+<h3 id="item-description__why-choose-authlab">Why choose Authlab?</h3>
+<ul>
+    <li>
+        <strong>Responsive Layout Design:</strong>
+        <br> Whatever you are using the device your site will run as it should. Authlab template is a fully responsive layout for all types of devices. Optimized viewing on desktop, tablet and mobile devices.
+</li>
+</ul><ul>
+    <li>
+        <strong>Bootstrap v5.1 Framework:</strong>
+        <br>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web. Ensures stability, compatibility and ease of use.
+    </li>
+</ul>
+
+
+
+<ul>
+    <li>
+        <strong>Easy Customization:</strong>
+        <br>Customize each slide to meet your unique requirements and preferences.</li>
+</ul><ul>
+    <li>
+        <strong>Beautiful Appearance on Any Device:</strong>
+        <br>Great user experience on any screen size or resolution.</li>
+</ul><ul>
+    <li>
+        <strong>Cross-Browser Compatibility:</strong>
+        <br>Seamless functionality on multiple browsers.</li>
+</ul><ul>
+    <li>
+        <strong>Fast Loading Speed:</strong>
+        <br>Optimized user experience with fast loading times.</li>
+</ul><ul>
+    <li>
+        <strong>User-Friendly Interface:</strong>
+        <br>Easy to use and navigate.</li>
+</ul>
+
+<h2 id="item-description__other-feature">Other Features:</h2>
+<ul>
+    
+
+<li>Based on Bootstrap v5.1</li><li>Material Design Icons v7.4</li>
+    <li>100% Responsive</li>
+    <li>W3C HTML valid code</li>
+    <li>SEO-ready commented HTML5 files</li>
+    <li>Creative, modern, and clean design</li>
+    <li>Google fonts</li>
+    <li>Cross Browser Compatible with Firefox, Safari, Opera, Chrome</li>
+    <li>FREE Lifetime Updates</li>
+    <li>Better Support (response within 24 hours)</li>
+    <li>Well, Extensive, Detailed Documentation</li>
+</ul>
+
+<h3 id="item-description__what-do-you-get">What do you get?</h3>
+<ul>
+    <li>HTML File</li><li>Custom CSS File</li><li>Documentation in HTML</li><li>24/7 Awesome Support</li>
+</ul>
+
+<h3 id="item-description__3rd-party-libraries-license">3rd Party Libraries License:</h3>
+<ul>
+    <li> <a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/" target="_blank" class="fs-1_4 bold">
+                Bootstrap v5.1
+              </a></li></ul>
+
+<h3 id="item-description__icons-license">Icons License:</h3>
+<ul><li><a href="https://pictogrammers.com/library/mdi/version/7.4.47/" rel="nofollow" target="_blank">Material Design Icons v7.4</a></li>
+</ul>
+
+<h3 id="item-description__google-font">Google Font</h3>
+<ul>
+    
+    <li><a href="https://fonts.google.com/specimen/Lora" rel="nofollow" target="_blank">Lora</a></li>
+</ul>
+
+<h3 id="item-description__images-license">Images License:</h3><p>Thank you so much to the artists and authors who gave their permission to use their amazing works! <strong>THANK YOU!</strong></p>
+
+<ul>
+    <li><a href="https://pixabay.com/" target="_blank">Pixabay</a></li></ul>
+
+
+<h3 id="item-description__customization-services">Customization Services:</h3>
+<p>We are available for freelance hire. If you need customizations to your website then please do not hesitate to <a href="https://themeforest.net/user/alissio" target="_blank">contact us</a>, we can discuss it.</p>
+<p><i>* Note that this service will charge you extra!</i></p><h3 id="item-description__support">Support:</h3><ul>
+<li>If you have any questions, please feel free to <a href="https://themeforest.net/user/alissio" target="_blank">contact us</a>.</li>
+<li>And you will receive a response within 12-24 hrs.</li>
+</ul>
+<h3 id="item-description__documentation">Documentation:</h3>
+<a href="https://teamdream.netlify.app/documentation/" target="_blank">Check the docs here</a><h3 id="item-description__customization-services">Important Note:</h3>
+<ul>
+
+
+<li>All images are just used for Preview Purpose Only. They are not part of the HTML templates and are not included in the final purchase files.</li>
+<li>Images and videos shown on our demo site are not part of the template download package due to licensing limitations and hence we are providing placeholder images with recommended image size mentioned in it.</li>
+<li>Any type of code or CSS customization and feature addition/change is not part of item support scope as per Envato item <a href="https://themeforest.net/page/item_support_policy?_ga=2.233764957.275401607.1701770067-503905489.1698934107" target="_blank">support policy</a>.</li>
+<li>Included a documentation file for full instruction.</li>
+</ul><h3 id="item-description__credits">Credits:</h3>
+<p><strong>Please note: the images that can be seen in the preview will not be included in the download package. These are for preview purposes only.</strong> Full credits list you can see on this page <a href="file:///C:/themeforest/teamdream/documentation/index.html#credits" target="_blank">link</a></p><h3 id="item-description__thank-you">Thank you:</h3>
+<p>Thank you so much for using this template. Your comments and ratings would be much appreciated. Please don’t forget RATE for us.</p> 
+<p>If you purchase this template, you will get support. We will update this template time by time and we want to hear your wishes for the future updates or for complete new templates.
+</p>
+<p>We are grateful to you.
+</p><p><strong>– Alissio –</strong></p><h3 id="item-description__update">Update:</h3>
+
+
+
+<p><strong>v1.0</strong> – 01.03.2024
+</p>
+<pre>- Initial Release
+
+</pre>
+<p>If you love our product, Don’t forget to rate it 5 stars 
+
+<img src="https://teamdream.netlify.app/src/assets/img/star.png" alt="star">
+<img src="https://teamdream.netlify.app/src/assets/img/star.png" alt="star">
+<img src="https://teamdream.netlify.app/src/assets/img/star.png" alt="star">
+<img src="https://teamdream.netlify.app/src/assets/img/star.png" alt="star"> 
+<img src="https://teamdream.netlify.app/src/assets/img/star.png" alt="star"> 
+and let us know your feedback for a better update. Thank you
+<img src="https://teamdream.netlify.app/src/assets/img/happy.png" alt="happy">
+</p>
+<h3 id="item-description__follow">Follow:</h3>
+<a href="https://themeforest.net/user/Alissio/follow?_gl=1*14vbzgb*_ga*NzQ1ODM0NDIyLjE3MDM4Nzg0MTM.*_ga_ZKBVC1X78F*MTcwOTA0NDc1MC4xNjMuMC4xNzA5MDQ0NzU0LjAuMC4w&amp;_ga=2.258764618.1528248077.1708449503-745834422.1703878413" target="_blank"><img src="https://authlab.netlify.app/src/assets/img/follow-themeforest.png" alt="follow-themeforest"></a></div>
