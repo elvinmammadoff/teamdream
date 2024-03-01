@@ -1,0 +1,127 @@
+body {
+  font-family: "Lora", serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+.min-height-screen {
+  min-height: 100vh;
+}
+
+.card {
+  overflow: clip;
+  border-radius: .6rem;
+  transition: .3s all ease-in;
+}
+
+.card:hover {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.card-body {
+  position: absolute;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%; 
+  padding: 3rem 1rem;
+}
+
+.card-title {
+  font-size: 1.4rem;
+}
+
+.card-text {
+  font-size: .75rem;
+  font-weight: 500;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: .3rem;
+}
+
+.card-text i.mdi {
+  font-size: .9rem;
+  opacity: .6;
+}
+
+.card-img {
+  border-radius: .6rem;
+}
+
+.card-social {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  column-gap: .5rem;
+  transform: translate(-20px, -17px);
+}
+
+.card-social a {
+  width: 34px;
+  min-width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: none;
+  transition: .3s all ease-in;
+}
+
+.card-social a:hover {
+  transform: rotate(360deg);
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+.twitter {
+  background-color: #55acee;
+}
+.whatsapp {
+  background-color: #25d366;
+}
+.snapchat {
+  background-color: #fffc00;
+}
+.linkedin {
+  background-color: #0a66c2;
+}
+.reddit {
+  background-color: #ff4500;
+}
+.youtube {
+  background-color: #ff0000;
+}
+
+
+
+
+@media (max-width: 991.98px) { 
+  .w-50 {
+    width: 75% !important;
+  }
+}
+
+@media (max-width: 767.98px) { 
+  .w-50 {
+    width: 100% !important;
+  }
+}
