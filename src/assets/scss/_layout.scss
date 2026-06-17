@@ -1,0 +1,99 @@
+// ── Layout ──
+.td-section {
+  padding: 5rem 0;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+// ── Section Heading ──
+.td-section-heading {
+  text-align: center;
+  margin-bottom: 3rem;
+
+  h2 {
+    font-size: 2.25rem;
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.02em;
+  }
+
+  p {
+    color: var(--td-text-muted);
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.75;
+    font-size: 0.9375rem;
+  }
+}
+
+// ── Eyebrow label ──
+.td-eyebrow {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--td-text-muted);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-bottom: 0.75rem;
+
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 1.5px;
+    background: currentColor;
+    opacity: 0.45;
+  }
+}
+
+// ── Card entrance animation ──
+.td-card {
+  -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+
+  &.td-visible {
+    opacity: 1 !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+  }
+}
+
+// ── All Layouts back button ──
+.td-all-layouts-btn {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 9999;
+  background: #0D0D0D;
+  color: #fff;
+  border-radius: 2rem;
+  padding: 0.42rem 1rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.35rem;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.25);
+  -webkit-transition: opacity var(--td-transition);
+  transition: opacity var(--td-transition);
+
+  &:hover { opacity: 0.78; color: #fff; }
+}

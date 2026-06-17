@@ -1,0 +1,95 @@
+// ============================================================
+//   10 — FILTER TABS + DEPT FILTER CARDS (index-10.html)
+// ============================================================
+
+// Filter nav
+.td-filter-nav {
+  .nav-link {
+    color: var(--td-text-muted);
+    border-radius: 2rem;
+    padding: 0.38rem 1.1rem;
+    font-size: 0.82rem;
+    font-weight: 500;
+    -webkit-transition: all var(--td-transition);
+    transition: all var(--td-transition);
+    border: 1.5px solid transparent;
+
+    &.active { background: #0D0D0D; color: #fff; border-color: #0D0D0D; }
+    &:not(.active):hover { border-color: #0D0D0D; color: #0D0D0D; }
+  }
+}
+
+[data-theme="dark"] .td-filter-nav {
+  .nav-link.active { background: #F0EEE8; color: #0D0D0D; border-color: #F0EEE8; }
+  .nav-link:not(.active):hover { border-color: #94a3b8; color: #F0EEE8; }
+}
+
+// Department cards
+.td-dept-card {
+  background: var(--td-card-bg);
+  border: 1px solid var(--td-card-border);
+  border-radius: var(--td-radius);
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-transition: -webkit-transform var(--td-transition), box-shadow var(--td-transition);
+  transition: transform var(--td-transition), box-shadow var(--td-transition);
+
+  &:hover {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+    box-shadow: var(--td-card-shadow-hover);
+  }
+
+  .td-card-body {
+    padding: 1rem 1.1rem 1.25rem;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  .td-name { font-size: 0.9375rem; margin-bottom: 0.1rem; text-align: left; }
+  .td-role { color: var(--td-text-muted); font-size: 0.77rem; margin-bottom: 0; text-align: left; }
+
+  .td-social {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-top: 0.75rem;
+  }
+}
+
+.td-dept-photo-wrap { position: relative; }
+
+.td-dept-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: top center;
+  object-position: top center;
+  display: block;
+}
+
+.td-dept-badge {
+  position: absolute;
+  bottom: 0.65rem;
+  left: 0.65rem;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.22rem 0.6rem;
+  border-radius: 0.3rem;
+  line-height: 1.4;
+}
+
+.td-badge-lead   { background: rgba(237, 233, 254, 0.93); color: #5b21b6; }
+.td-badge-eng    { background: rgba(224, 242, 254, 0.93); color: #0369a1; }
+.td-badge-design { background: rgba(252, 231, 243, 0.93); color: #9d174d; }
+.td-badge-mkt    { background: rgba(254, 249, 195, 0.93); color: #854d0e; }

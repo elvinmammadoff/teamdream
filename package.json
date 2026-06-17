@@ -1,0 +1,13 @@
+{
+  "name": "teamdream",
+  "version": "2.0.0",
+  "description": "TeamDream — Responsive Team Card Bootstrap Template",
+  "scripts": {
+    "build:css": "sass src/assets/scss/style.scss src/assets/css/style.css --style=expanded --no-source-map",
+    "watch:css": "sass --watch src/assets/scss/style.scss:src/assets/css/style.css --no-source-map",
+    "build:css:min": "sass src/assets/scss/style.scss src/assets/css/style.min.css --style=compressed --no-source-map"
+  },
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
+}

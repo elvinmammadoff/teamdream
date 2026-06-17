@@ -1,169 +1,183 @@
 Codecanyon
 
-Upload Caregory: 
+Upload Caregory:
 HTML5
 ________________________
-Name: 
-Teamdream - Responsive Team Card Bootstrap Template
+Name:
+TeamDream - Responsive Team Card Bootstrap Template
 ________________________
 Category:
 Template
 ________________________
-High Resolution: 
+High Resolution:
 Yes
 ________________________
 Compatible Browsers:
-Firefox, Safari, Opera, Chrome
+Firefox, Safari, Opera, Chrome, Edge
 ________________________
 Files Included:
-HTML, CSS
+HTML, CSS, JS
 ________________________
 Software Version:
-HTML5
+HTML5, Bootstrap 5.3
 ________________________
 Demo URL:
 https://teamdream.netlify.app/
 ________________________
 Tags:
-team card, card, bootstrap, team, creative team, professional team, responsive, team members, team html, 
-team layout, team list
+team card, card, bootstrap, team, creative team, professional team, responsive, team members, team html,
+team layout, team list, dark mode, glassmorphism, team directory, team filter, bootstrap 5
 
 ________________________
 HTML Description:
 <div class="user-html user-html__with-lazy-load">
 <a href="https://teamdream.netlify.app/documentation/" rel="nofollow" target="_blank">
-<img src="https://teamdream.netlify.app/src/assets/img/doc.png" alt="Teamdream - Online Documentation">
+<img src="https://teamdream.netlify.app/src/assets/img/doc.png" alt="TeamDream - Online Documentation">
 </a>
-<h3 id="item-description__teamdream-responsive-team-card-bootstrap-v5-emplate">Teamdream - Responsive Team Card Bootstrap v5 Template</h3>
-<p><strong>Teamdream </strong>- Team Card template coded with Amazing beautiful and clean codes! Some powerful HTML &amp; CSS files 100% W3 valid web standards. and also a 100% responsive, mobile-first Pricing Table for your business, agency, service sale website.</p><p><strong>Teamdream</strong> is a multi-cause HTML template constructed with the operation of the rearmost Bootstrap v5.1.3. HTML5, and CSS3. It’s fully responsive
-Teamdream is well proved, veritably easy to use, and provides better performance. You will be easily able to customize it for your needs.
-</p>
+<h3 id="item-description__teamdream-responsive-team-card-bootstrap-template">TeamDream v2.0 — Responsive Team Card Bootstrap Template</h3>
+<p><strong>TeamDream v2.0</strong> is a premium HTML team card template featuring <strong>10 unique, fully distinct layouts</strong> — from classic grids and editorial dark cards to glassmorphism, overlay hover, and interactive department filters. Every layout is pixel-perfect, W3C valid, and ready to drop into any website with zero build tools required.</p>
 
-
-<p><strong>The code is well-commented and organized</strong>, with much of it explained directly in the code for easy use. <strong>Teamdream</strong> is <strong>100% responsive</strong> and has a clean design that works well on all types of screens and devices, including laptops, tablets and mobiles.</p>
-
+<p>Built from the ground up with <strong>Bootstrap 5.3.3</strong>, <strong>CSS custom properties</strong> for effortless dark mode, and <strong>vanilla JS</strong> for filtering — no jQuery, no dependencies, just clean and modern code.</p>
 
 <img src="https://teamdream.netlify.app/src/assets/img/rate.png" alt="rate-us">
 
-<h3 id="item-description__why-choose-teamdream">Why choose Teamdream?</h3>
+<h3 id="item-description__10-layouts">10 Unique Layouts Included:</h3>
+<ul>
+    <li><strong>Layout 01 — Classic Grid Light:</strong> 4-column portrait card grid on a warm neutral background. Ghost social icon circles, lift-on-hover shadow.</li>
+    <li><strong>Layout 02 — Editorial Dark Grid:</strong> 3-column landscape photo cards on a deep navy gradient. Left-aligned typography with an indigo accent rule.</li>
+    <li><strong>Layout 03 — Horizontal Cards:</strong> Full-width row cards with photo left, bio right. Accent border slides in from the left on hover.</li>
+    <li><strong>Layout 04 — Full Overlay Hover:</strong> Portrait cards where hovering reveals name, role, bio and social links via a smooth dark overlay.</li>
+    <li><strong>Layout 05 — Minimal Circle:</strong> Ultra-minimal layout with circular photos — a floating card materialises on hover.</li>
+    <li><strong>Layout 06 — Glassmorphism:</strong> Frosted glass cards over a vivid purple gradient. Blur + saturation backdrop filter with graceful fallback.</li>
+    <li><strong>Layout 07 — List View:</strong> Team directory in a filterable table format with avatar, badge, socials, and profile link per row.</li>
+    <li><strong>Layout 08 — Skills &amp; Tags Dark:</strong> Dark mode cards with square-cropped photos, skill pill badges, and experience indicators.</li>
+    <li><strong>Layout 09 — Featured + Grid:</strong> Asymmetric layout — large featured leader card on the left, compact 3-column mini-grid on the right.</li>
+    <li><strong>Layout 10 — Filter by Department:</strong> Square-crop cards with coloured department badges. Instant filter tabs for Leadership, Engineering, Design, Marketing.</li>
+</ul>
+
+<h3 id="item-description__why-choose-teamdream">Why choose TeamDream v2.0?</h3>
 <ul>
     <li>
-        <strong>Responsive Layout Design:</strong>
-        <br> Whatever you are using the device your site will run as it should. Teamdream template is a fully responsive layout for all types of devices. Optimized viewing on desktop, tablet and mobile devices.
-</li>
-</ul><ul>
+        <strong>10 Genuinely Distinct Layouts:</strong>
+        <br>Every layout has a unique structural concept — different photo proportions, grid systems, interaction patterns, and visual treatments.
+    </li>
     <li>
-        <strong>Bootstrap v5.1 Framework:</strong>
-        <br>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web. Ensures stability, compatibility and ease of use.
+        <strong>Dark Mode Built In:</strong>
+        <br>CSS custom property theming system. Toggle <code>data-theme="dark"</code> on the html element — every colour adapts instantly.
+    </li>
+    <li>
+        <strong>Zero Build Tools:</strong>
+        <br>Open any HTML file in a browser and it works. No Node.js, no Webpack, no compilation step required.
+    </li>
+    <li>
+        <strong>Interactive JS Filtering:</strong>
+        <br>Vanilla JS department filter with instant show/hide — no jQuery needed.
+    </li>
+    <li>
+        <strong>Card Entrance Animations:</strong>
+        <br>IntersectionObserver-based fade+slide animations that trigger as cards enter the viewport.
+    </li>
+    <li>
+        <strong>SVG Social Icons:</strong>
+        <br>Dedicated SVG icons for Facebook, LinkedIn, X (Twitter), GitHub, Dribbble, and Figma. Context-aware tinting via CSS filter.
+    </li>
+    <li>
+        <strong>W3C Valid HTML5:</strong>
+        <br>All 11 HTML files validated clean — zero errors, zero warnings.
+    </li>
+    <li>
+        <strong>Fully Responsive:</strong>
+        <br>Optimized for desktop, tablet, and mobile on all modern browsers.
     </li>
 </ul>
 
-
-
+<h2 id="item-description__other-feature">Tech Stack &amp; Features:</h2>
 <ul>
-    <li>
-        <strong>Easy Customization:</strong>
-        <br>Customize each slide to meet your unique requirements and preferences.</li>
-</ul><ul>
-    <li>
-        <strong>Beautiful Appearance on Any Device:</strong>
-        <br>Great user experience on any screen size or resolution.</li>
-</ul><ul>
-    <li>
-        <strong>Cross-Browser Compatibility:</strong>
-        <br>Seamless functionality on multiple browsers.</li>
-</ul><ul>
-    <li>
-        <strong>Fast Loading Speed:</strong>
-        <br>Optimized user experience with fast loading times.</li>
-</ul><ul>
-    <li>
-        <strong>User-Friendly Interface:</strong>
-        <br>Easy to use and navigate.</li>
-</ul>
-
-<h2 id="item-description__other-feature">Other Features:</h2>
-<ul>
-    
-
-<li>Based on Bootstrap v5.1</li><li>Material Design Icons v7.4</li>
+    <li>Bootstrap v5.3.3 (CDN)</li>
+    <li>Material Design Icons v7.4 (7,000+ icons, bundled locally)</li>
+    <li>Google Fonts: Inter + Lora</li>
+    <li>SVG social icons (Facebook, LinkedIn, X, GitHub, Dribbble, Figma)</li>
+    <li>CSS custom properties theming (light + dark)</li>
+    <li>IntersectionObserver card animations</li>
+    <li>Vanilla JS department filter</li>
+    <li>Glassmorphism with @supports fallback</li>
     <li>100% Responsive</li>
-    <li>W3C HTML valid code</li>
-    <li>SEO-ready commented HTML5 files</li>
-    <li>Creative, modern, and clean design</li>
-    <li>Google fonts</li>
-    <li>Cross Browser Compatible with Firefox, Safari, Opera, Chrome</li>
-    <li>FREE Lifetime Updates</li>
-    <li>Better Support (response within 24 hours)</li>
-    <li>Well, Extensive, Detailed Documentation</li>
+    <li>W3C valid HTML5 (all files)</li>
+    <li>Cross-browser: Chrome, Firefox, Safari, Opera, Edge</li>
+    <li>No jQuery, no build tools required</li>
+    <li>FREE lifetime updates</li>
+    <li>Support within 24 hours</li>
+    <li>Full HTML documentation included</li>
 </ul>
 
-<h3 id="item-description__what-do-you-get">What do you get?</h3>
+<h3 id="item-description__what-do-you-get">What's included in the download?</h3>
 <ul>
-    <li>HTML File</li><li>Custom CSS File</li><li>Documentation in HTML</li><li>24/7 Awesome Support</li>
+    <li>landing.html — overview page with links to all 10 demos</li>
+    <li>index.html through index-10.html — 10 unique demo layouts</li>
+    <li>teamdream-noImages/ — placeholder version with placehold.co images</li>
+    <li>src/assets/css/ — style.css, Bootstrap 5.3, Material Design Icons</li>
+    <li>src/assets/js/main.js — animations + filter logic</li>
+    <li>src/assets/img/icons/ — SVG social icons (so-* brand colors + sw-* white variants)</li>
+    <li>src/assets/fonts/ — MDI webfont files (woff2, woff, ttf, eot)</li>
+    <li>documentation/ — full HTML documentation</li>
 </ul>
 
-<h3 id="item-description__3rd-party-libraries-license">3rd Party Libraries License:</h3>
+<h3 id="item-description__3rd-party-libraries-license">3rd Party Libraries:</h3>
 <ul>
-    <li> <a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/" target="_blank" class="fs-1_4 bold">
-                Bootstrap v5.1
-              </a></li></ul>
-
-<h3 id="item-description__icons-license">Icons License:</h3>
-<ul><li><a href="https://pictogrammers.com/library/mdi/version/7.4.47/" rel="nofollow" target="_blank">Material Design Icons v7.4</a></li>
+    <li><a href="https://getbootstrap.com/docs/5.3/" target="_blank">Bootstrap v5.3.3</a></li>
+    <li><a href="https://pictogrammers.com/library/mdi/version/7.4.47/" rel="nofollow" target="_blank">Material Design Icons v7.4</a></li>
+    <li><a href="https://fonts.google.com/specimen/Inter" rel="nofollow" target="_blank">Google Font: Inter</a></li>
+    <li><a href="https://fonts.google.com/specimen/Lora" rel="nofollow" target="_blank">Google Font: Lora</a></li>
 </ul>
 
-<h3 id="item-description__google-font">Google Font</h3>
+<h3 id="item-description__images-license">Images License:</h3>
+<p>Preview images are for demonstration only and are <strong>not included</strong> in the download package. The download includes a <code>teamdream-noImages/</code> folder with placehold.co placeholder images at the correct dimensions for each layout.</p>
+
+<h3 id="item-description__support">Support:</h3>
 <ul>
-    
-    <li><a href="https://fonts.google.com/specimen/Lora" rel="nofollow" target="_blank">Lora</a></li>
+    <li>If you have any questions, please feel free to <a href="https://themeforest.net/user/alissio" target="_blank">contact us</a>.</li>
+    <li>You will receive a response within 12–24 hours.</li>
 </ul>
 
-<h3 id="item-description__images-license">Images License:</h3><p>Thank you so much to the artists and authors who gave their permission to use their amazing works! <strong>THANK YOU!</strong></p>
-
-<ul>
-    <li><a href="https://pixabay.com/" target="_blank">Pixabay</a></li></ul>
-
-
-<h3 id="item-description__customization-services">Customization Services:</h3>
-<p>We are available for freelance hire. If you need customizations to your website then please do not hesitate to <a href="https://themeforest.net/user/alissio" target="_blank">contact us</a>, we can discuss it.</p>
-<p><i>* Note that this service will charge you extra!</i></p><h3 id="item-description__support">Support:</h3><ul>
-<li>If you have any questions, please feel free to <a href="https://themeforest.net/user/alissio" target="_blank">contact us</a>.</li>
-<li>And you will receive a response within 12-24 hrs.</li>
-</ul>
 <h3 id="item-description__documentation">Documentation:</h3>
-<a href="https://teamdream.netlify.app/documentation/" target="_blank">Check the docs here</a><h3 id="item-description__customization-services">Important Note:</h3>
+<a href="https://teamdream.netlify.app/documentation/" target="_blank">Check the docs here</a>
+
+<h3 id="item-description__important-note">Important Note:</h3>
 <ul>
+    <li>All preview images are for demonstration only and are not included in the final purchase files.</li>
+    <li>The noImages folder provides placeholder images at the correct dimensions for each layout.</li>
+    <li>CSS/code customization beyond the template's existing feature set is not included in item support scope per Envato policy.</li>
+</ul>
 
-
-<li>All images are just used for Preview Purpose Only. They are not part of the HTML templates and are not included in the final purchase files.</li>
-<li>Images and videos shown on our demo site are not part of the template download package due to licensing limitations and hence we are providing placeholder images with recommended image size mentioned in it.</li>
-<li>Any type of code or CSS customization and feature addition/change is not part of item support scope as per Envato item <a href="https://themeforest.net/page/item_support_policy?_ga=2.233764957.275401607.1701770067-503905489.1698934107" target="_blank">support policy</a>.</li>
-<li>Included a documentation file for full instruction.</li>
-</ul><h3 id="item-description__credits">Credits:</h3>
-<p><strong>Please note: the images that can be seen in the preview will not be included in the download package. These are for preview purposes only.</strong> Full credits list you can see on this page <a href="file:///C:/themeforest/teamdream/documentation/index.html#credits" target="_blank">link</a></p><h3 id="item-description__thank-you">Thank you:</h3>
-<p>Thank you so much for using this template. Your comments and ratings would be much appreciated. Please don’t forget RATE for us.</p> 
-<p>If you purchase this template, you will get support. We will update this template time by time and we want to hear your wishes for the future updates or for complete new templates.
-</p>
-<p>We are grateful to you.
-</p><p><strong>– Alissio –</strong></p><h3 id="item-description__update">Update:</h3>
-
-
-
-<p><strong>v1.0</strong> – 01.03.2024
-</p>
-<pre>- Initial Release
-
+<h3 id="item-description__update">Version History:</h3>
+<p><strong>v2.0.0</strong> — June 2026</p>
+<pre>
+- Full visual redesign: warm neutral palette, complete dark mode overhaul
+- 10 unique layouts (up from 1 in v1.0)
+- New layouts: Editorial Dark Grid, Horizontal Cards, Overlay Hover,
+  Minimal Circle, Glassmorphism, List View, Skills+Tags, Featured+Grid,
+  Filter by Department
+- SVG social icons replacing MDI icon fonts
+- Twitter renamed to X throughout
+- IntersectionObserver card entrance animations
+- Interactive department filter (Vanilla JS, no jQuery)
+- Inter + Lora Google Fonts pairing
+- W3C validated — zero errors across all 11 HTML files
+- noImages placeholder version for all 10 layouts
 </pre>
-<p>If you love our product, Don’t forget to rate it 5 stars 
 
+<p><strong>v1.0.0</strong> — 01.03.2024</p>
+<pre>- Initial Release</pre>
+
+<p>If you love our product, please don't forget to rate it 5 stars
 <img src="https://teamdream.netlify.app/src/assets/img/star.png" alt="star">
 <img src="https://teamdream.netlify.app/src/assets/img/star.png" alt="star">
 <img src="https://teamdream.netlify.app/src/assets/img/star.png" alt="star">
-<img src="https://teamdream.netlify.app/src/assets/img/star.png" alt="star"> 
-<img src="https://teamdream.netlify.app/src/assets/img/star.png" alt="star"> 
-and let us know your feedback for a better update. Thank you
+<img src="https://teamdream.netlify.app/src/assets/img/star.png" alt="star">
+<img src="https://teamdream.netlify.app/src/assets/img/star.png" alt="star">
+and let us know your feedback. Thank you
 <img src="https://teamdream.netlify.app/src/assets/img/smile.png" alt="happy">
 </p>
 <h3 id="item-description__follow">Follow:</h3>
-<a href="https://themeforest.net/user/Alissio/follow?_gl=1*14vbzgb*_ga*NzQ1ODM0NDIyLjE3MDM4Nzg0MTM.*_ga_ZKBVC1X78F*MTcwOTA0NDc1MC4xNjMuMC4xNzA5MDQ0NzU0LjAuMC4w&amp;_ga=2.258764618.1528248077.1708449503-745834422.1703878413" target="_blank"><img src="https://teamdream.netlify.app/src/assets/img/follow-themeforest.png" alt="follow-themeforest"></a></div>
+<a href="https://themeforest.net/user/Alissio/follow" target="_blank"><img src="https://teamdream.netlify.app/src/assets/img/follow-themeforest.png" alt="follow-themeforest"></a>
+</div>

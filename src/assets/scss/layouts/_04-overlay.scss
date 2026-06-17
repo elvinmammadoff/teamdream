@@ -1,0 +1,123 @@
+@use '../variables' as *;
+
+// ============================================================
+//   04 — FULL-OVERLAY HOVER CARD (index-4.html)
+// ============================================================
+.td-overlay-wrap {
+  position: relative;
+  border-radius: var(--td-radius);
+  overflow: hidden;
+  aspect-ratio: 2 / 3;
+  cursor: pointer;
+
+  .td-ov-img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: top center;
+    object-position: top center;
+    display: block;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+  }
+
+  &:hover .td-ov-img {
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+  }
+
+  &:hover .td-overlay-bottom {
+    height: 40%;
+    background: rgba(10, 10, 12, 0.88);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  &:hover .td-overlay-details {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    max-height: 200px;
+  }
+}
+
+.td-overlay-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 26%;
+  background: -webkit-linear-gradient(top, transparent, rgba(10, 10, 12, 0.92));
+  background: linear-gradient(to top, rgba(10, 10, 12, 0.92), transparent);
+  padding: 1rem 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-transition: height 0.38s ease, background 0.38s ease;
+  transition: height 0.38s ease, background 0.38s ease;
+}
+
+.td-overlay-name {
+  font-family: $td-font-heading;
+  font-size: 1.1rem;
+  color: #fff;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.td-overlay-details {
+  opacity: 0;
+  -webkit-transform: translateY(12px);
+  transform: translateY(12px);
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: opacity 0.3s ease 0.08s, -webkit-transform 0.3s ease 0.08s, max-height 0.38s ease;
+  transition: opacity 0.3s ease 0.08s, transform 0.3s ease 0.08s, max-height 0.38s ease;
+}
+
+.td-overlay-role { font-size: 0.78rem; color: rgba(255, 255, 255, 0.68); margin: 0.25rem 0 0.55rem; }
+
+.td-overlay-bio {
+  font-size: 0.77rem;
+  color: rgba(255, 255, 255, 0.56);
+  margin-bottom: 0.75rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.55;
+}
+
+.td-overlay-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.6rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 0.75rem;
+
+  a {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 1.1rem;
+    -webkit-transition: color var(--td-transition);
+    transition: color var(--td-transition);
+
+    &:hover { color: #fff; }
+  }
+}

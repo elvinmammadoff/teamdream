@@ -1,0 +1,48 @@
+// ============================================================
+//   05 — MINIMAL CIRCLE / FLOATING CARD (index-5.html)
+// ============================================================
+.td-minimal-wrap {
+  text-align: center;
+  padding: 1.75rem 1rem;
+  border-radius: var(--td-radius);
+  background: transparent;
+  -webkit-transition: background var(--td-transition), box-shadow var(--td-transition);
+  transition: background var(--td-transition), box-shadow var(--td-transition);
+
+  &:hover {
+    background: var(--td-card-bg);
+    box-shadow: var(--td-card-shadow-hover);
+
+    .td-min-img { border-color: #0D0D0D; }
+  }
+
+  .td-min-img {
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: top center;
+    object-position: top center;
+    margin: 0 auto 0.85rem;
+    display: block;
+    border: 2.5px solid var(--td-card-border);
+    -webkit-transition: border-color var(--td-transition);
+    transition: border-color var(--td-transition);
+  }
+}
+
+.td-minimal-name { font-size: 0.9375rem; margin-bottom: 0.15rem; }
+.td-minimal-role { font-size: 0.78rem; color: var(--td-text-muted); margin-bottom: 0.6rem; }
+
+.td-minimal-social {
+  a {
+    color: var(--td-text-muted);
+    font-size: 1rem;
+    margin: 0 0.2rem;
+    -webkit-transition: color var(--td-transition);
+    transition: color var(--td-transition);
+
+    &:hover { color: var(--td-text-primary); }
+  }
+}

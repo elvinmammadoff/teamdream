@@ -1,0 +1,83 @@
+// ── Social Icons — ghost/outlined, neutral ──
+.td-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.45rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 0.85rem;
+
+  a {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #888;
+    font-size: 0.9rem;
+    background: transparent;
+    border: 1.5px solid #D4D4CE;
+    -webkit-transition: border-color var(--td-transition), color var(--td-transition), background var(--td-transition);
+    transition: border-color var(--td-transition), color var(--td-transition), background var(--td-transition);
+
+    &:hover {
+      color: #0D0D0D;
+      border-color: #0D0D0D;
+      background: transparent;
+    }
+  }
+}
+
+[data-theme="dark"] {
+  .td-social a { color: #8A9AB4; border-color: #334155; }
+  .td-social a:hover { color: #F0EEE8; border-color: #94a3b8; }
+}
+
+// ── SVG social icon images (white source SVGs, tinted per context) ──
+.td-soc-ic {
+  width: 15px;
+  height: 15px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  display: block;
+  // white SVG -> neutral dark glyph on light backgrounds
+  -webkit-filter: brightness(0) saturate(100%);
+  filter: brightness(0) saturate(100%);
+  opacity: 0.5;
+  -webkit-transition: opacity var(--td-transition);
+  transition: opacity var(--td-transition);
+}
+
+a:hover > .td-soc-ic { opacity: 1; }
+
+// Dark theme pages: keep icons white
+[data-theme="dark"] {
+  .td-soc-ic { -webkit-filter: none; filter: none; opacity: 0.7; }
+  a:hover > .td-soc-ic { opacity: 1; }
+}
+
+// Overlay cards (dark) — slightly larger white glyphs
+.td-overlay-social .td-soc-ic { width: 17px; height: 17px; -webkit-filter: none; filter: none; opacity: 0.7; }
+.td-overlay-social a:hover > .td-soc-ic { opacity: 1; }
+
+// Glass cards — white glyphs on the frosted circles
+.td-glass-social .td-soc-ic { width: 14px; height: 14px; -webkit-filter: none; filter: none; opacity: 0.85; }
+.td-glass-social a:hover > .td-soc-ic { opacity: 1; }
+
+// Minimal & list icons sit inline (no circle)
+.td-minimal-social .td-soc-ic { width: 16px; height: 16px; display: inline-block; vertical-align: middle; }
+.td-list-socials .td-soc-ic { width: 15px; height: 15px; display: inline-block; vertical-align: middle; }
+
+// Mini cards — smaller icons
+.td-mini-card .td-soc-ic { width: 13px; height: 13px; }

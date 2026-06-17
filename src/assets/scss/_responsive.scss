@@ -1,0 +1,15 @@
+// ============================================================
+//   GLOBAL RESPONSIVE
+// ============================================================
+@media (max-width: 991.98px) {
+  .td-section { padding: 3.5rem 0; }
+  .td-landing-hero { padding: 4.5rem 0 3.5rem; }
+}
+
+@media (max-width: 575.98px) {
+  .td-section { padding: 2.5rem 0; }
+  .td-section-heading h2 { font-size: 1.7rem; }
+  .td-landing-hero h1 { font-size: 1.85rem; }
+  .td-all-layouts-btn { font-size: 0.72rem; padding: 0.3rem 0.75rem; }
+  .td-stat-num { font-size: 1.9rem; }
+}
