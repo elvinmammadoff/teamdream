@@ -1,0 +1,48 @@
+// ============================================================
+//   TeamDream v2.0 — Variables
+//   Override these Sass variables before importing to retheme.
+// ============================================================
+
+// Accent & palette (Sass vars — override to retheme)
+$td-accent:           #6366f1 !default;
+$td-radius:           0.875rem !default;
+$td-transition:       0.3s cubic-bezier(0.4, 0, 0.2, 1) !default;
+
+$td-font-body:        'Inter', sans-serif !default;
+$td-font-heading:     'Lora', serif !default;
+
+// Light theme palette
+$td-bg-light:         #ECEAE7 !default;
+$td-card-bg-light:    #FFFFFF !default;
+$td-text-light:       #0D0D0D !default;
+$td-text-muted-light: #6B6B6B !default;
+
+// Dark theme palette
+$td-bg-dark:          #0f172a !default;
+$td-card-bg-dark:     #1e293b !default;
+$td-text-dark:        #F0EEE8 !default;
+$td-text-muted-dark:  #8A9AB4 !default;
+
+// ── CSS Custom Properties (runtime theming + dark mode) ──
+:root {
+  --td-bg:               #{$td-bg-light};
+  --td-card-bg:          #{$td-card-bg-light};
+  --td-card-border:      rgba(0, 0, 0, 0.07);
+  --td-card-shadow:      0 2px 16px rgba(0, 0, 0, 0.06);
+  --td-card-shadow-hover: 0 10px 40px rgba(0, 0, 0, 0.13);
+  --td-text-primary:     #{$td-text-light};
+  --td-text-muted:       #{$td-text-muted-light};
+  --td-accent:           #{$td-accent};
+  --td-radius:           #{$td-radius};
+  --td-transition:       #{$td-transition};
+}
+
+[data-theme="dark"] {
+  --td-bg:               #{$td-bg-dark};
+  --td-card-bg:          #{$td-card-bg-dark};
+  --td-card-border:      rgba(255, 255, 255, 0.07);
+  --td-card-shadow:      0 2px 16px rgba(0, 0, 0, 0.35);
+  --td-card-shadow-hover: 0 12px 48px rgba(0, 0, 0, 0.55);
+  --td-text-primary:     #{$td-text-dark};
+  --td-text-muted:       #{$td-text-muted-dark};
+}

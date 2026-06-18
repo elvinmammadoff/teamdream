@@ -1,0 +1,22 @@
+@use 'variables' as *;
+
+// ── Base ──
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  font-family: $td-font-body;
+  font-size: 0.9375rem;
+  background-color: var(--td-bg);
+  color: var(--td-text-primary);
+  -webkit-transition: background-color var(--td-transition), color var(--td-transition);
+  transition: background-color var(--td-transition), color var(--td-transition);
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $td-font-heading;
+  font-weight: 700;
+  color: var(--td-text-primary);
+}
+
+a { text-decoration: none; outline: none; }

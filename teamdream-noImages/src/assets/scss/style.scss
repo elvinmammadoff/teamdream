@@ -1,0 +1,39 @@
+// ============================================================
+//   TeamDream v2.0 — Main SCSS Entry
+//
+//   To retheme: configure Sass variables when loading this file.
+//   Example:
+//     @use 'style' with (
+//       $td-accent: #ef4444,
+//       $td-radius: 0.5rem
+//     );
+// ============================================================
+
+// 1. Variables & CSS Custom Properties
+@forward 'variables';
+@use 'variables' as *;
+
+// 2. Base
+@use 'base';
+
+// 3. Global Layout & UI
+@use 'layout';
+@use 'social';
+
+// 4. Layout-specific partials
+@use 'layouts/01-classic' as layout01;
+@use 'layouts/02-editorial' as layout02;
+@use 'layouts/03-horizontal' as layout03;
+@use 'layouts/04-overlay' as layout04;
+@use 'layouts/05-minimal' as layout05;
+@use 'layouts/06-glass' as layout06;
+@use 'layouts/07-list' as layout07;
+@use 'layouts/08-skills' as layout08;
+@use 'layouts/09-featured' as layout09;
+@use 'layouts/10-dept' as layout10;
+
+// 5. Landing page
+@use 'landing';
+
+// 6. Global responsive
+@use 'responsive';

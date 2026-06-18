@@ -16,7 +16,7 @@ Compatible Browsers:
 Firefox, Safari, Opera, Chrome, Edge
 ________________________
 Files Included:
-HTML, CSS, JS
+HTML, CSS, SCSS, JS
 ________________________
 Software Version:
 HTML5, Bootstrap 5.3
@@ -26,7 +26,7 @@ https://teamdream.netlify.app/
 ________________________
 Tags:
 team card, card, bootstrap, team, creative team, professional team, responsive, team members, team html,
-team layout, team list, dark mode, glassmorphism, team directory, team filter, bootstrap 5
+team layout, team list, dark mode, glassmorphism, team directory, team filter, bootstrap 5, sass, scss
 
 ________________________
 HTML Description:
@@ -35,9 +35,9 @@ HTML Description:
 <img src="https://teamdream.netlify.app/src/assets/img/doc.png" alt="TeamDream - Online Documentation">
 </a>
 <h3 id="item-description__teamdream-responsive-team-card-bootstrap-template">TeamDream v2.0 — Responsive Team Card Bootstrap Template</h3>
-<p><strong>TeamDream v2.0</strong> is a premium HTML team card template featuring <strong>10 unique, fully distinct layouts</strong> — from classic grids and editorial dark cards to glassmorphism, overlay hover, and interactive department filters. Every layout is pixel-perfect, W3C valid, and ready to drop into any website with zero build tools required.</p>
+<p><strong>TeamDream v2.0</strong> is a premium HTML team card template featuring <strong>10 unique, fully distinct layouts</strong> — from classic grids and editorial dark cards to glassmorphism, overlay hover, and interactive department filters. Every layout is pixel-perfect, W3C valid, and ready to drop into any website with compiled CSS included.</p>
 
-<p>Built from the ground up with <strong>Bootstrap 5.3.3</strong>, <strong>CSS custom properties</strong> for effortless dark mode, and <strong>vanilla JS</strong> for filtering — no jQuery, no dependencies, just clean and modern code.</p>
+<p>Built from the ground up with <strong>Bootstrap 5.3.3</strong>, <strong>Sass source files</strong>, <strong>CSS custom properties</strong> for effortless dark mode, and <strong>vanilla JS</strong> for filtering — no jQuery, just clean and modern code. The included <code>package.json</code> is optional and only needed if you want to rebuild CSS from SCSS.</p>
 
 <img src="https://teamdream.netlify.app/src/assets/img/rate.png" alt="rate-us">
 
@@ -66,8 +66,8 @@ HTML Description:
         <br>CSS custom property theming system. Toggle <code>data-theme="dark"</code> on the html element — every colour adapts instantly.
     </li>
     <li>
-        <strong>Zero Build Tools:</strong>
-        <br>Open any HTML file in a browser and it works. No Node.js, no Webpack, no compilation step required.
+        <strong>Ready Without Build Tools:</strong>
+        <br>Open any HTML file in a browser and it works. Compiled CSS is included, while Sass source files and optional package.json scripts are provided for advanced customization.
     </li>
     <li>
         <strong>Interactive JS Filtering:</strong>
@@ -94,9 +94,10 @@ HTML Description:
 <h2 id="item-description__other-feature">Tech Stack &amp; Features:</h2>
 <ul>
     <li>Bootstrap v5.3.3 (CDN)</li>
-    <li>Material Design Icons v7.4 (7,000+ icons, bundled locally)</li>
+    <li>Material Design Icons v7.4 for UI helper icons, bundled locally</li>
     <li>Google Fonts: Inter + Lora</li>
-    <li>SVG social icons (Facebook, LinkedIn, X, GitHub, Dribbble, Figma)</li>
+    <li>Custom SVG social icons (Facebook, LinkedIn, X, GitHub, Dribbble, Figma)</li>
+    <li>Sass source files with !default variables and modular layout partials</li>
     <li>CSS custom properties theming (light + dark)</li>
     <li>IntersectionObserver card animations</li>
     <li>Vanilla JS department filter</li>
@@ -104,7 +105,7 @@ HTML Description:
     <li>100% Responsive</li>
     <li>W3C valid HTML5 (all files)</li>
     <li>Cross-browser: Chrome, Firefox, Safari, Opera, Edge</li>
-    <li>No jQuery, no build tools required</li>
+    <li>No jQuery; compiled CSS works without running build tools</li>
     <li>FREE lifetime updates</li>
     <li>Support within 24 hours</li>
     <li>Full HTML documentation included</li>
@@ -114,11 +115,12 @@ HTML Description:
 <ul>
     <li>landing.html — overview page with links to all 10 demos</li>
     <li>index.html through index-10.html — 10 unique demo layouts</li>
-    <li>teamdream-noImages/ — placeholder version with placehold.co images</li>
-    <li>src/assets/css/ — style.css, Bootstrap 5.3, Material Design Icons</li>
+    <li>src/assets/css/ — style.css, Bootstrap 5.3, Material Design Icons CSS</li>
+    <li>src/assets/scss/ — Sass source files, variables, layout partials, and responsive styles</li>
     <li>src/assets/js/main.js — animations + filter logic</li>
-    <li>src/assets/img/icons/ — SVG social icons (so-* brand colors + sw-* white variants)</li>
+    <li>src/assets/img/icons/ — custom SVG social icons (so-* brand colors + sw-* white variants)</li>
     <li>src/assets/fonts/ — MDI webfont files (woff2, woff, ttf, eot)</li>
+    <li>package.json — optional Sass build scripts: build:css, watch:css, build:css:min</li>
     <li>documentation/ — full HTML documentation</li>
 </ul>
 
@@ -131,7 +133,7 @@ HTML Description:
 </ul>
 
 <h3 id="item-description__images-license">Images License:</h3>
-<p>Preview images are for demonstration only and are <strong>not included</strong> in the download package. The download includes a <code>teamdream-noImages/</code> folder with placehold.co placeholder images at the correct dimensions for each layout.</p>
+<p>Preview images are for demonstration only and are <strong>not included</strong> in the download package.</p>
 
 <h3 id="item-description__support">Support:</h3>
 <ul>
@@ -141,11 +143,13 @@ HTML Description:
 
 <h3 id="item-description__documentation">Documentation:</h3>
 <a href="https://teamdream.netlify.app/documentation/" target="_blank">Check the docs here</a>
+<p>The documentation includes separate sections for CSS structure, Sass structure, rebuilding CSS, changing team card colors and fonts, and changing social icons.</p>
 
 <h3 id="item-description__important-note">Important Note:</h3>
 <ul>
     <li>All preview images are for demonstration only and are not included in the final purchase files.</li>
-    <li>The noImages folder provides placeholder images at the correct dimensions for each layout.</li>
+    <li>Sass and package.json are optional. The included compiled CSS works immediately; run npm install only if you want to rebuild CSS from SCSS.</li>
+    <li>The main package builds with npm run build:css.</li>
     <li>CSS/code customization beyond the template's existing feature set is not included in item support scope per Envato policy.</li>
 </ul>
 
@@ -162,8 +166,9 @@ HTML Description:
 - IntersectionObserver card entrance animations
 - Interactive department filter (Vanilla JS, no jQuery)
 - Inter + Lora Google Fonts pairing
+- Sass source files added with modular layout partials and build scripts
+- Documentation expanded with CSS/Sass structure, build, colors, fonts, and icons
 - W3C validated — zero errors across all 11 HTML files
-- noImages placeholder version for all 10 layouts
 </pre>
 
 <p><strong>v1.0.0</strong> — 01.03.2024</p>
