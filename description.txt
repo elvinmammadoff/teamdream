@@ -152,7 +152,16 @@ HTML Description:
 </ul>
 
 <h3 id="item-description__update">Version History:</h3>
-<p><strong>v1.0.0</strong> — 19.06.2026</p>
+<p><strong>v2.0.1</strong> — 24.06.2026</p>
+<pre>
+- Replaced minified materialdesignicons.css with full unminified source (MDI v7.4.47)
+- Documentation expanded: added HTML structure modification examples,
+  live server deployment guide (FTP, Netlify, GitHub Pages),
+  and Troubleshooting &amp; FAQ section (8 common issues)
+- Package cleaned: removed .DS_Store files and legacy vendor directory
+</pre>
+
+<p><strong>v2.0.0</strong> — 19.06.2026</p>
 <pre>
 - Full visual redesign: warm neutral palette, complete dark mode overhaul
 - 10 unique layouts (up from 1 in v1.0)

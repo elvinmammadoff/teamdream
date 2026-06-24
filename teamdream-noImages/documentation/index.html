@@ -164,7 +164,8 @@
             <li><strong>documentation/</strong> — the file you are reading now.</li>
             <li><strong>src/</strong> — CSS, SCSS, JS, fonts, icons, and team photos.</li>
             <li><strong>src/assets/scss/</strong> — Sass source files used to generate
-              <code>src/assets/css/style.css</code>.</li>
+              <code>src/assets/css/style.css</code>.
+            </li>
             <li><strong>Sass source files</strong> — included for developers who want to customize and rebuild styles
               from the full download package.</li>
             <li><strong>landing.html</strong> — overview page with links to all 10 demos.</li>
@@ -367,7 +368,8 @@ $td-text-light: #0D0D0D;
 
           <p>Team card social icons are custom SVG files stored in <code>src/assets/img/icons/</code>. Files beginning
             with <code>sw-</code> are white icons used on dark or colored surfaces. Files beginning with
-            <code>so-</code> are brand/color icon variants.</p>
+            <code>so-</code> are brand/color icon variants.
+          </p>
 
           <p>Material Design Icons are still used for general UI helper icons, such as the all-layouts button, location
             marker, filter tabs, and landing page feature icons.</p>
@@ -502,7 +504,8 @@ documentation/
             <li>Create a new public repository on GitHub and push all project files to the <code>main</code> branch.
             </li>
             <li>Go to <strong>Settings → Pages</strong>, set the source to the <code>main</code> branch and
-              <code>/ (root)</code>.</li>
+              <code>/ (root)</code>.
+            </li>
             <li>Your site will be live at <code>https://&lt;username&gt;.github.io/&lt;repo&gt;/</code>.</li>
           </ol>
 
@@ -535,7 +538,8 @@ python -m http.server 8080
           <h2 class="mt-1">Icons are not showing</h2>
           <p>Check that the <code>src/assets/fonts/</code> folder was uploaded along with the
             <code>src/assets/css/</code> folder. The Material Design Icons webfont is loaded via a relative path from
-            the CSS file. If fonts are missing the icons render as empty squares.</p>
+            the CSS file. If fonts are missing the icons render as empty squares.
+          </p>
 
           <h2 class="mt-1">Dark mode does not toggle</h2>
           <p>The dark mode toggle button calls <code>main.js</code>. Make sure <code>src/assets/js/main.js</code> is
@@ -545,7 +549,8 @@ python -m http.server 8080
           <h2 class="mt-1">Department filter (Layout 10) does not work</h2>
           <p>Confirm that each card wrapper has a <code>data-dept</code> attribute and each filter button has a matching
             <code>data-filter</code> attribute. Values are case-sensitive. If you added a new department, add both the
-            button and the attribute.</p>
+            button and the attribute.
+          </p>
 
           <h2 class="mt-1">Cards are not animating on scroll</h2>
           <p>Card entrance animations use the <code>IntersectionObserver</code> API, which is supported in all modern
@@ -555,7 +560,8 @@ python -m http.server 8080
           <h2 class="mt-1">Glassmorphism (Layout 06) looks plain in some browsers</h2>
           <p>The frosted glass effect requires <code>backdrop-filter: blur()</code>, which is not supported in Firefox
             by default (it can be enabled in <code>about:config</code>). The template includes a graceful fallback via
-            <code>@supports</code> so the layout still looks clean without the blur effect.</p>
+            <code>@supports</code> so the layout still looks clean without the blur effect.
+          </p>
 
           <h2 class="mt-1">Can I use this template in multiple client projects?</h2>
           <p>A Regular License covers one end product (one domain). For multiple client sites you need a separate
@@ -676,6 +682,13 @@ python -m http.server 8080
           <p>
 
           <pre class="css">
+
+  V. 2.0.1 – 2026-06-24
+  - Replaced minified materialdesignicons.css with full unminified source (MDI v7.4.47)
+  - Documentation expanded: HTML structure modification examples,
+    live server deployment guide (FTP, Netlify, GitHub Pages),
+    Troubleshooting &amp; FAQ section (8 common issues)
+  - Package cleaned: removed .DS_Store files and legacy vendor directory
 
   V. 2.0.0 – 2026-06
   - Full visual redesign: warm neutral palette, dark mode overhaul
