@@ -4,7 +4,7 @@ Upload Caregory:
 HTML5
 ________________________
 Name:
-TeamDream - Responsive Team Card Bootstrap Template
+Teamdream | Responsive Team Card Bootstrap Template
 ________________________
 Category:
 Template
@@ -25,8 +25,8 @@ Demo URL:
 https://teamdream.netlify.app/
 ________________________
 Tags:
-team card, card, bootstrap, team, creative team, professional team, responsive, team members, team html,
-team layout, team list, dark mode, glassmorphism, team directory, team filter, bootstrap 5, sass, scss
+team cards, bootstrap 5, team showcase, creative team, responsive, team html,
+team layout, team list, dark mode, team directory, team filter, team profile, scss
 
 ________________________
 HTML Description:
@@ -34,12 +34,10 @@ HTML Description:
 <a href="https://teamdream.netlify.app/documentation/" rel="nofollow" target="_blank">
 <img src="https://teamdream.netlify.app/src/assets/img/doc.png" alt="TeamDream - Online Documentation">
 </a>
-<h3 id="item-description__teamdream-responsive-team-card-bootstrap-template">TeamDream v2.0 — Responsive Team Card Bootstrap Template</h3>
-<p><strong>TeamDream v2.0</strong> is a premium HTML team card template featuring <strong>10 unique, fully distinct layouts</strong> — from classic grids and editorial dark cards to glassmorphism, overlay hover, and interactive department filters. Every layout is pixel-perfect, W3C valid, and ready to drop into any website with compiled CSS included.</p>
+<h3 id="item-description__teamdream-responsive-team-card-bootstrap-template">TeamDream — Responsive Team Card Bootstrap Template</h3>
+<p><strong>TeamDream</strong> is a premium HTML team card template featuring <strong>10 unique, fully distinct layouts</strong> — from classic grids and editorial dark cards to glassmorphism, overlay hover, and interactive department filters. Every layout is pixel-perfect, W3C valid, and ready to drop into any website with compiled CSS included.</p>
 
-<p>Built from the ground up with <strong>Bootstrap 5.3.3</strong>, <strong>Sass source files</strong>, <strong>CSS custom properties</strong> for effortless dark mode, and <strong>vanilla JS</strong> for filtering — no jQuery, just clean and modern code. The included <code>package.json</code> is optional and only needed if you want to rebuild CSS from SCSS.</p>
-
-<img src="https://teamdream.netlify.app/src/assets/img/rate.png" alt="rate-us">
+<p>Built from the ground up with <strong>Bootstrap 5.3</strong>, <strong>Sass source files</strong>, <strong>CSS custom properties</strong> for effortless dark mode, and <strong>vanilla JS</strong> for filtering — no jQuery, just clean and modern code. The included <code>package.json</code> is optional and only needed if you want to rebuild CSS from SCSS.</p>
 
 <h3 id="item-description__10-layouts">10 Unique Layouts Included:</h3>
 <ul>
@@ -55,7 +53,7 @@ HTML Description:
     <li><strong>Layout 10 — Filter by Department:</strong> Square-crop cards with coloured department badges. Instant filter tabs for Leadership, Engineering, Design, Marketing.</li>
 </ul>
 
-<h3 id="item-description__why-choose-teamdream">Why choose TeamDream v2.0?</h3>
+<h3 id="item-description__why-choose-teamdream">Why choose TeamDream?</h3>
 <ul>
     <li>
         <strong>10 Genuinely Distinct Layouts:</strong>
@@ -154,7 +152,7 @@ HTML Description:
 </ul>
 
 <h3 id="item-description__update">Version History:</h3>
-<p><strong>v2.0.0</strong> — June 2026</p>
+<p><strong>v1.0.0</strong> — 19.06.2026</p>
 <pre>
 - Full visual redesign: warm neutral palette, complete dark mode overhaul
 - 10 unique layouts (up from 1 in v1.0)
@@ -174,15 +172,6 @@ HTML Description:
 <p><strong>v1.0.0</strong> — 01.03.2024</p>
 <pre>- Initial Release</pre>
 
-<p>If you love our product, please don't forget to rate it 5 stars
-<img src="https://teamdream.netlify.app/src/assets/img/star.png" alt="star">
-<img src="https://teamdream.netlify.app/src/assets/img/star.png" alt="star">
-<img src="https://teamdream.netlify.app/src/assets/img/star.png" alt="star">
-<img src="https://teamdream.netlify.app/src/assets/img/star.png" alt="star">
-<img src="https://teamdream.netlify.app/src/assets/img/star.png" alt="star">
-and let us know your feedback. Thank you
-<img src="https://teamdream.netlify.app/src/assets/img/smile.png" alt="happy">
-</p>
 <h3 id="item-description__follow">Follow:</h3>
 <a href="https://themeforest.net/user/Alissio/follow" target="_blank"><img src="https://teamdream.netlify.app/src/assets/img/follow-themeforest.png" alt="follow-themeforest"></a>
 </div>

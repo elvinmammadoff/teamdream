@@ -1346,36 +1346,6 @@ a:hover>.td-soc-ic {
   color: #854d0e;
 }
 
-.td-landing-hero {
-  position: relative;
-  padding: 7rem 0 5.5rem;
-  text-align: center;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-}
-
-.td-landing-hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(5, 6, 14, 0.82);
-}
-
-.td-landing-hero .td-hero-inner {
-  position: relative;
-  z-index: 1;
-}
-
-.td-landing-hero h1 {
-  font-size: clamp(2rem, 5vw, 3.5rem);
-  color: #fff;
-  margin-bottom: 1.1rem;
-  line-height: 1.18;
-  letter-spacing: -0.02em;
-}
-
 .td-badge-chip {
   display: inline-block;
   background: rgba(255, 255, 255, 0.08);
@@ -1720,13 +1690,6 @@ a:hover>.td-soc-ic {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.td-landing-footer {
-  padding: 2rem 0;
-  text-align: center;
-  background: #0D0D0D;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
-}
-
 .td-footer-copy {
   font-size: 0.82rem;
   color: rgba(255, 255, 255, 0.35);
@@ -1744,10 +1707,6 @@ a:hover>.td-soc-ic {
   .td-section {
     padding: 3.5rem 0;
   }
-
-  .td-landing-hero {
-    padding: 4.5rem 0 3.5rem;
-  }
 }
 
 @media (max-width: 575.98px) {
@@ -1757,10 +1716,6 @@ a:hover>.td-soc-ic {
 
   .td-section-heading h2 {
     font-size: 1.7rem;
-  }
-
-  .td-landing-hero h1 {
-    font-size: 1.85rem;
   }
 
   .td-all-layouts-btn {
